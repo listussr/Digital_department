@@ -1,0 +1,33 @@
+.header {
+    background-color: rgb(145, 177, 228);
+    border-radius: 5%;
+    text-align: right;
+    font-style: italic;
+}
+
+body {
+    background-color: rgb(215, 246, 246);
+}
+
+td {
+    width: 150px;
+    height: 50px;
+    border: solid 2px black;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(50, 5, 5);
+}
+
+th {
+    border: solid 2px black;
+}
+
+caption {
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    height: 50px;
+    text-align: center;
+    text-shadow: rgb(113, 113, 139) 1px 0 1px;
+}
+

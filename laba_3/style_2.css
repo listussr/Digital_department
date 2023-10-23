@@ -1,0 +1,165 @@
+body {
+    /*background-image: url("https://w.forfun.com/fetch/7c/7c010cb8a4811b2fd101ae7bca3fdca5.jpeg");
+    background-size: 75%;*/
+    background-color: rgb(109, 141, 230);
+}
+
+a {
+    font-size: 32;
+    /*text-shadow: rgb(192, 191, 187) 1px 0 5px;*/
+    color:rgb(242, 134, 56);
+}
+
+h2 {
+    font-size: 32;
+    /*text-shadow: rgb(192, 191, 187) 1px 0 5px;*/
+    color:rgb(242, 134, 56);
+}
+
+ul {
+    font-size: 32;
+    color:rgb(242, 134, 56);
+}
+
+li {
+    font-weight: bold;
+    font-style: italic;
+}
+div a{
+    color:azure;
+    font-size: larger;
+    margin-top: 50%;
+}
+
+.image {
+    height: 100%;
+    width: 70%;
+}
+
+.content-left {
+    margin: 10px;
+    background-color: rgb(80, 255, 179);
+    border-radius: 5%;
+}
+
+.content-right {
+    margin-left:  100px;
+    right: 20px;
+    background-color: rgb(179, 197, 105);
+    border-radius: 5%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 158, 158);
+    margin: 10px;
+}
+
+/* Разаделение лабораторных*/
+
+h1 {
+    color: rgb(30, 5, 5);
+    text-shadow: rgb(12, 12, 33) 1px 0 1px;
+    font-style: italic;
+}
+
+.header {
+    background-color: rgb(145, 177, 228);
+    border-radius: 5%;
+    text-align: right;
+    font-style: italic;
+}
+
+.container {
+    background-color: aliceblue;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    margin-left: 40%;
+}
+
+.container-2 {
+    background-color: aquamarine;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    /*margin-top: 20%;*/
+    /*margin-left: 40%;*/
+    /*margin-top: 40%;*/
+
+}
+
+.container-3 {
+    background-color: cadetblue;
+    border: chocolate;
+    border: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block-3 {
+    width: 200px;
+    height: 200px;
+    background-color: fuchsia;
+    margin: 32px;
+}
+
+.container-4 {
+    background-color: aliceblue;
+    border-radius: 20px;
+    border-color: black;
+    border: solid;
+    width: 600px;
+    height: 600px;
+    margin-left: 40%;
+}
+
+.element_1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    background-color: rgb(52, 98, 138);
+    border: 7px solid orangered;
+    border-radius: 15%;
+}
+
+.element_2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    background-color: rgb(52, 138, 84);
+    border: 7px solid rgb(147, 54, 219);
+    border-radius: 15%;
+}
+
+.element_3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 65px;
+    left: 240px;
+    background-color: rgb(184, 195, 66);
+    border: 7px solid rgb(236, 34, 34);
+    border-radius: 15%;
+}
+
+.absolute_positioned {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}

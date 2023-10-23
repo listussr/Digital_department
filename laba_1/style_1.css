@@ -1,0 +1,63 @@
+body {
+    background-image: url(https://klike.net/uploads/posts/2022-11/1669373233_3-42.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: rgb(17, 8, 32);
+}
+
+h1 {
+    text-shadow: rgb(192, 191, 187) 1px 0 5px;
+    color:rgb(109, 145, 244);
+    font-size: 200%;
+    font-weight: 200;
+}
+
+p {
+    color:rgb(232, 225, 199);
+    font-size: 200%;
+}
+
+h2 {
+    font-family: "Brush Script MT, Brush Script Std", cursive;
+    color:rgb(232, 225, 199);
+}
+
+ul {
+    color: beige;
+    font-style: italic;
+    font-size: 200%;
+}
+
+ol {
+    color: beige;
+    font-style: italic;
+    font-size: 200%;
+}
+
+img {
+    width: 450px;
+   
+}
+
+.positioned {
+    position: absolute;
+    right: 100px;
+    top: 10px;
+}
+
+.img_pos {
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    width: 30%;
+
+}
+
+.disabled {
+    color:rgb(192, 191, 187);
+    opacity: 1.5;
+}
+
+.text_style {
+    color:rgb(232, 225, 199);
+}

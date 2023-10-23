@@ -1,0 +1,58 @@
+body {
+    /*background-image: url("https://w.forfun.com/fetch/7c/7c010cb8a4811b2fd101ae7bca3fdca5.jpeg");
+    background-size: 75%;*/
+    background-color: rgb(109, 141, 230);
+}
+
+a {
+    font-size: 32;
+    /*text-shadow: rgb(192, 191, 187) 1px 0 5px;*/
+    color:rgb(242, 134, 56);
+}
+
+h2 {
+    font-size: 32;
+    /*text-shadow: rgb(192, 191, 187) 1px 0 5px;*/
+    color:rgb(242, 134, 56);
+}
+
+ul {
+    font-size: 32;
+    color:rgb(242, 134, 56);
+}
+
+li {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*img {
+    height: 100%;
+    width: 100%;
+}
+*/
+
+.image {
+    height: 100%;
+    width: 70%;
+}
+
+.content-left {
+    margin: 10px;
+    background-color: rgb(80, 255, 179);
+    border-radius: 5%;
+}
+
+.content-right {
+    margin:  10px;
+    right: 20px;
+    background-color: rgb(179, 197, 105);
+    border-radius: 5%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 158, 158);
+    margin: 10px;
+}
