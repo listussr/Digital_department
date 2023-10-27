@@ -1,0 +1,17 @@
+.header {
+    background-color: #66329d;
+    text-align: right;
+    width: 1440px;
+}
+
+/*.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+*/
+
+.width_max {
+    width: 1345px;
+    height: 600px;
+}
