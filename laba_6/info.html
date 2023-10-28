@@ -17,29 +17,112 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-    <div id="carousel" class="carousel slide" data-bs-ride="carousel" style="display: inline-block;" dara-interval="1000">
-        <div class="carousel-item">
-            <img src="https://kazanfirst.ru/storage/posts/February2023/aIkWmcB9QZWRKUeJOkR3.jpg" class="width_max" alt="...">
+    <div class="row">
+        <div class="col-4">       
+            <div id="list-example" class="list">
+                <a class="list-group-item list-group-item-action" href="#carousel">Фотографии</a>
+                <a class="list-group-item list-group-item-action" href="#card">Карточки</a>
+                <a class="list-group-item list-group-item-action" href="#accordion">Биография</a>
+            </div>
+        </div> 
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-ofset="0" class="scrollspy-example" data-bs-smooth-scroll="true">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel" style="display: inline-block;" dara-interval="1000">
+                <div class="carousel-item">
+                    <img src="https://github.com/listussr/Digital_department/blob/master/laba_6/pictures/gosling_1.jpg?raw=true" class="width_max" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://github.com/listussr/Digital_department/blob/master/laba_6/pictures/gosling_2.jpg?raw=true" class="width_max">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://github.com/listussr/Digital_department/blob/master/laba_6/pictures/gosling_3.jpg?raw=true" class="width_max">
+                </div>
+                <div class="carousel-item active">
+                    <img src="https://github.com/listussr/Digital_department/blob/master/laba_6/pictures/gosling_4.jpg?raw=true" class="width_max">
+                </div>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+            <div id="card" class="pos">
+                <div class="card" style="width: 22rem">
+                    <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/7d10f506-1d2a-4d73-98e0-d6605183b938/300x450" class="card-img-top"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Драйв</h5>
+                        <p class="card-text">Великолепный водитель – при свете дня он выполняет каскадерские трюки на съёмочных площадках Голливуда, а по ночам ведет рискованную игру. Но один опасный контракт – и за его жизнь назначена награда. Теперь, чтобы остаться в живых и спасти свою очаровательную соседку, он должен делать то, что умеет лучше всего – виртуозно уходить от погони.</p>
+                        <a href="https://www.kinopoisk.ru/film/276598/?utm_referrer=yandex.ru" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Кинопоиск</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem">
+                    <img src="https://www.kinopoisk.ru/14z6Og216/1e8311X38Z7/cX0wRczrHz0bjhVKtmG5i5NLnUQs_anMLwM9bYVHQ1QOr_QXQedSMbezPoCGKszg4jDKOBdKgCg1dFmyUg2Va-QuMNIeLUjpjByHi3WhOc1ACV0VqS-8XShH6jtSjI9eAiWons4tWjqv4q1TA74Y9TIgHTtTCcX5ZejC9kXHwLSwvXvNRLne-Z1Unwb7onHBgQwfxLP_5Qp9h3_tj43AFgOmqRzOrF97qewtlRJyU7U9Yl10E0FVOS6sj-BKTgi_-v3yyAqw1bnWlJjBtqT7hsLN2U019WTCcEX3aA0KDhhMZ6EUBq7e9Kil5dTadl82-q2dfF0J035ibkiiRIxIffM2sIJKupa9HFAYTrEmtk7BgteK9LWhwPfAc67OSQGSgS9sFM-r3zymLOXQk36ePTgplnUeDRA04iePIMgMij_3M_vAS_yRMpJd0AG4InqBDohUzD72rIRwDLuoQ0fA2EDpIRAKZ9I9ae2lmlz5UXI17NI71cndMa2ixOAFTgI0fHP6yAZ1mLpVUdtKNur0AQJKXguyvC1LPAl7LQxJC5pH4KYXzqqVeSrkpNedMdz7s2iQuteDVrijLE-lggZNtHu688VJvNm6E18RR_bh8sFDy5zL9XyiDf6Eea3HywvbyibtFYNukjvoY-oSGf2Ycnxt132VC1gx42MGKg0BAnQ8ePjPSruWdlcekEt0pfqLys5RAjK_IAe1hL9th0_G2gNnKVNGrtt9JyTlGxq0njv1IloyHwWYMKArDmuARYeytDL7iE3w1vITnp_Deew0SUtDmoO6OCMHPwgyKsCOhB2Opq5WTuqRuCZs7hcStpj-f6eWMFUP2HYhYk_vzcRGdrQ7MwPGPJY_n54Rg7Og8wwDSRWLMrQkxHoAf2sMiwPYQSOn205tGzonrawT3HfX9Peg23Kajl4xLKOGaoFAArT1sTCKwn0X9hzXEUd06_bHREjWg3u4YUU_jPNuhYhMFs6rZh4GpBX5JKwhHNI4kf11Ipo5XYocdmGigWIMzgO8s3H9BcS0UPJSW99Gfy2wSMMKEEi_fmrK9Ik5pk4NwdODoWcRx-JQMK_k4NQWNJo_eGUY9ddNXryj58jsxkYNvDT9e4tBtR18ld7eyH1q_QSEiNZPP73rCjEMfm3GRo1ai-VhVk7pmXWtrKGaEPKQ_3hvGrTeRZa3Ky5ALUDABTPyuP2CSvYZPNEb3Qs8JrGHDsnUyDo148QxwvynCggOFQTv6d8Hrli-oSSlXhq6kPi5oRRwV4Pe8aSjyWvFTYR4-bP2Ass9lzyV3dIEv6w7iITAmQL1dqaDcAX0aAoIBNRK42KYw67TOuErqxNaeNSwtWySs1qB13Hu64llj4HP_DWw-MGCshf9nZYThLPkOQ0Ii5RCvfFsRDgEMiSHyoPcB6ntHs9iU7Fu42yUUfZY_H_nWrQbDpN-6SoNpg2OhTU5ej6Li3TWepWW1UjzrrHBiAMVzPT24A32RfIliwpJ3grkqxQJ61DwZ21kFFI-3DR9qVd9XcnVPCKmgW0Ehkx8eL20Qgi1lbnfnhoIdOIyx0oEWII0NS4AOkAzI8XCiN-PqOecQm2avegl7ddZ9VBwMambMFoKG7RibQ6uyYYGun17uIAI-BCylF4RA7yp8ciFAhXL9PruwjXEuWpMSktWxi-kVAGrFvXmI-JWUfST_39lVbnfCFRx6mUM7AiAy3S7vXDNiTDe_NOXX49_Jv2PBQHRifV8rcO0i_FjxYmG1Yxo4hYKY5p5aW2mFBsxVD04qdq1HwuQPaatjyMHSciw_Tl5gYK9UfUU1B4P_mE2x0CMFEU2MSUN9wE2LURIStDIqOIYzibQva4nJNZadVS-NSaX8F1G1rRgJUuqSghMf3O8scqCtZy0UxAWAffr-Y4IjBFIfnpmy_GHvGZHysSTyiXlWcOr1rKoYSVT1fUTMjQo0vIdz1I7bKJPq4fOBHZ9uLkIjTNZ99cTmQh-pvQGiASeCzX4IMp4wTmqioBIEgGs55OC4li-re8rlVJ-0381YJKx3EneM-svg6wNiA50cDkywwD8GDUW1t0GMWh5TQMGkE8_8CGFfwRzrYVPBpKKr-JcSiFXPSVia5pVfJv_8C-d8dtC071rbY-jjgFCcLy7vgVN81B6nBuSQfvoecXMSV6Mf_BrC3BAMqyESMGQC2OnkMptHr7nouvbljLXPLumELySj9q74iZGJIbER_W7c7ZJgHgX_tTXVgDwLXIAgYwaBD61oQc2xH_vRIKEXoct49hIK51z6KTuHFa3HPI7qZY83M6dseQjja8Fho3-e7yygcC9WTjc3dkANa4ywwhFWoJ7faBFvYF1YgJHjVBIZiyVymsYPGBh4hyaPde_feHUON7JW7wgIoXrzMDHe_399EVJOV7wkx8QB7Nhu4ODxRlL9_Ypy3FMv2uMyUMfjGWq14bv3Xwnr-FTEXkes3Jtl_SfSFt8K6lJIk1IzTB4tbVNjDhVvdMYEcg3JHnPigwYybe24AJwgXqgBQFAEsCk4xHKYZbyZ65jUlN9HjOxoVC7HE4UOWNjRaJJwkK1_P51x0R8UnzXldbGtaI1xIZJXQS5emBC9sN35wXKgROIaOnTgCmZe-BvJRJWcVd3uiWcvVpBVDVqL4WvwIACOvV0-03EtJm2HtPaCHamNolKyNjPe3nri37Hti3PDQgSwOxkXkQuHnJoYWVWE7gRNnRiFfLZjl407eSN6sIAzXQ4e3LPAv6Zv1vfm0kw4bGMQQURBbU-6g3-S_tuzUYEnMoka9fM41ZyJ25i0hV2W3e1bV3ymofdP6BhT2DJiob-OrvzioxzGnURHBADN-uzjgmCWM3zteTE9gt8Jw7JzRaJKG6XwGaRvaGpbVtVfhb48KYdcpHOFD7qbMssjwIHtjC4vUjKtBi2X5VWR3eltQMEDlfLM3YjRXLF_GONwIlSxyQm2Q4snjAmJSGaVnXbt3xo0zzbytM1bA" class="card-img-top"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Бегущий по лезвию 2049</h5>
+                        <p class="card-text">В недалеком будущем мир населен людьми и репликантами, созданными выполнять самую тяжелую работу. Работа офицера полиции Кей — держать репликантов под контролем в условиях нарастающего напряжения. Он случайно становится обладателем секретной информации, которая ставит под угрозу существование всего человечества. Желая найти ключ к разгадке, Кей решает разыскать Рика Декарда — бывшего офицера специального подразделения полиции Лос-Анджелеса, который бесследно исчез много лет назад.</p>
+                        <a href="https://www.kinopoisk.ru/film/589290/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Кинопоиск</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem">
+                    <img src="https://www.kinopoisk.ru/14z6Og216/1e8311X38Z7/cX0wRczrHz0bjhVKtmG5i5NLnUQs_anMLwM9bYVHQ1QOr_QXQedSMbeyfELE6U6i4iTKb1ceg7z29E3n0FoVa-d5JNIIeZ39jAuHnyHgbFmBXF2Baq-8XShH6jtSjI9eAiWons4tWjqv4q1TA74Y9TIgHTtTCcX5ZejC9kXHwLSwvXvNRLne-Z1Unwb7onHBgQwfxLP_5Qp9h3_tj43AFgOmqRzOrF97qewtlRJyU7U9Yl10E0FVOS6sj-BKTgi_-v3yyAqw1bnWlJjBtqT7hsLN2U019WTCcEX3aA0KDhhMZ6EUBq7e9Kil5dTadl82-q2dfF0J035ibkiiRIxIffM2sIJKupa9HFAYTrEmtk7BgteK9LWhwPfAc67OSQGSgS9sFM-r3zymLOXQk36ePTgplnUeDRA04iePIMgMij_3M_vAS_yRMpJd0AG4InqBDohUzD72rIRwDLuoQ0fA2EDpIRAKZ9I9ae2lmlz5UXI17NI71cndMa2ixOAFTgI0fHP6yAZ1mLpVUdtKNur0AQJKXguyvC1LPAl7LQxJC5pH4KYXzqqVeSrkpNedMdz7s2iQuteDVrijLE-lggZNtHu688VJvNm6E18RR_bh8sFDy5zL9XyiDf6Eea3HywvbyibtFYNukjvoY-oSGf2Ycnxt132VC1gx42MGKg0BAnQ8ePjPSruWdlcekEt0pfqLys5RAjK_IAe1hL9th0_G2gNnKVNGrtt9JyTlGxq0njv1IloyHwWYMKArDmuARYeytDL7iE3w1vITnp_Deew0SUtDmoO6OCMHPwgyKsCOhB2Opq5WTuqRuCZs7hcStpj-f6eWMFUP2HYhYk_vzcRGdrQ7MwPGPJY_n54Rg7Og8wwDSRWLMrQkxHoAf2sMiwPYQSOn205tGzonrawT3HfX9Peg23Kajl4xLKOGaoFAArT1sTCKwn0X9hzXEUd06_bHREjWg3u4YUU_jPNuhYhMFs6rZh4GpBX5JKwhHNI4kf11Ipo5XYocdmGigWIMzgO8s3H9BcS0UPJSW99Gfy2wSMMKEEi_fmrK9Ik5pk4NwdODoWcRx-JQMK_k4NQWNJo_eGUY9ddNXryj58jsxkYNvDT9e4tBtR18ld7eyH1q_QSEiNZPP73rCjEMfm3GRo1ai-VhVk7pmXWtrKGaEPKQ_3hvGrTeRZa3Ky5ALUDABTPyuP2CSvYZPNEb3Qs8JrGHDsnUyDo148QxwvynCggOFQTv6d8Hrli-oSSlXhq6kPi5oRRwV4Pe8aSjyWvFTYR4-bP2Ass9lzyV3dIEv6w7iITAmQL1dqaDcAX0aAoIBNRK42KYw67TOuErqxNaeNSwtWySs1qB13Hu64llj4HP_DWw-MGCshf9nZYThLPkOQ0Ii5RCvfFsRDgEMiSHyoPcB6ntHs9iU7Fu42yUUfZY_H_nWrQbDpN-6SoNpg2OhTU5ej6Li3TWepWW1UjzrrHBiAMVzPT24A32RfIliwpJ3grkqxQJ61DwZ21kFFI-3DR9qVd9XcnVPCKmgW0Ehkx8eL20Qgi1lbnfnhoIdOIyx0oEWII0NS4AOkAzI8XCiN-PqOecQm2avegl7ddZ9VBwMambMFoKG7RibQ6uyYYGun17uIAI-BCylF4RA7yp8ciFAhXL9PruwjXEuWpMSktWxi-kVAGrFvXmI-JWUfST_39lVbnfCFRx6mUM7AiAy3S7vXDNiTDe_NOXX49_Jv2PBQHRifV8rcO0i_FjxYmG1Yxo4hYKY5p5aW2mFBsxVD04qdq1HwuQPaatjyMHSciw_Tl5gYK9UfUU1B4P_mE2x0CMFEU2MSUN9wE2LURIStDIqOIYzibQva4nJNZadVS-NSaX8F1G1rRgJUuqSghMf3O8scqCtZy0UxAWAffr-Y4IjBFIfnpmy_GHvGZHysSTyiXlWcOr1rKoYSVT1fUTMjQo0vIdz1I7bKJPq4fOBHZ9uLkIjTNZ99cTmQh-pvQGiASeCzX4IMp4wTmqioBIEgGs55OC4li-re8rlVJ-0381YJKx3EneM-svg6wNiA50cDkywwD8GDUW1t0GMWh5TQMGkE8_8CGFfwRzrYVPBpKKr-JcSiFXPSVia5pVfJv_8C-d8dtC071rbY-jjgFCcLy7vgVN81B6nBuSQfvoecXMSV6Mf_BrC3BAMqyESMGQC2OnkMptHr7nouvbljLXPLumELySj9q74iZGJIbER_W7c7ZJgHgX_tTXVgDwLXIAgYwaBD61oQc2xH_vRIKEXoct49hIK51z6KTuHFa3HPI7qZY83M6dseQjja8Fho3-e7yygcC9WTjc3dkANa4ywwhFWoJ7faBFvYF1YgJHjVBIZiyVymsYPGBh4hyaPde_feHUON7JW7wgIoXrzMDHe_399EVJOV7wkx8QB7Nhu4ODxRlL9_Ypy3FMv2uMyUMfjGWq14bv3Xwnr-FTEXkes3Jtl_SfSFt8K6lJIk1IzTB4tbVNjDhVvdMYEcg3JHnPigwYybe24AJwgXqgBQFAEsCk4xHKYZbyZ65jUlN9HjOxoVC7HE4UOWNjRaJJwkK1_P51x0R8UnzXldbGtaI1xIZJXQS5emBC9sN35wXKgROIaOnTgCmZe-BvJRJWcVd3uiWcvVpBVDVqL4WvwIACOvV0-03EtJm2HtPaCHamNolKyNjPe3nri37Hti3PDQgSwOxkXkQuHnJoYWVWE7gRNnRiFfLZjl407eSN6sIAzXQ4e3LPAv6Zv1vfm0kw4bGMQQURBbU-6g3-S_tuzUYEnMoka9fM41ZyJ25i0hV2W3e1bV3ymofdP6BhT2DJiob-OrvzioxzGnURHBADN-uzjgmCWM3zteTE9gt8Jw7JzRaJKG6XwGaRvaGpbVtVfhb48KYdcpHOFD7qbMssjwIHtjC4vUjKtBi2X5VWR3eltQMEDlfLM3YjRXLF_GONwIlSxyQm2Q4snjAmJSGaVnXbt3xo0zzbytM1bA" class="card-img-top"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Место под соснами</h5>
+                        <p class="card-text">Мотокаскадер Люк Глэнтон совершает турне из одной провинции в другую, показывая свои каскадерские навыки и зарабатывая этим на жизнь. По окончании одного из своих выступлений он встречает свою бывшую девушку - Ромину, вскоре узнав, что у нее от него годовалый сын - Джейсон. Решив обеспечивать сына он бросает свою работу каскадера, однако Ромина против того, чтобы Люк был в жизни ее сына, поскольку она сама вовлечена в отношения с Кофи. Тем не менее, Люк остается в городе и устраивается на работу к механику Робину, но вскоре понимает, что заработанных денег не хватает для обеспечения семьи. Робин предлагает ему ограбить банк...</p>
+                        <a href="https://www.kinopoisk.ru/film/577673/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Кинопоиск</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="accordion">
+                <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link btn-outline-dark" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Дата и место рождения
+                    </button>
+                    </h5>
+                </div>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        Дата рождения:
+                        12 ноября 1980, 42 года <br/>
+                        Место рождения:
+                        Лондон, Онтарио, Канада
+                    </div>
+                </div>
+                </div>
+                <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Образование
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Гослинг получил образование в государственной школе Гладстона, Корнуоллском колледже и профессиональном училище и средней школе Лестера Б. Пирсона.
+                    </div>
+                </div>
+                </div>
+                <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Личная жизнь
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                    Женат. Двое детей.
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
-        <div class="carousel-item">
-            <img src="https://st03.kakprosto.ru/images/article/2018/8/18/264019_5b77ed5d9dc6f5b77ed5d9dcab.jpeg" class="width_max">
-        </div>
-        <div class="carousel-item">
-            <img src="https://mykaleidoscope.ru/x/uploads/posts/2023-05/1684940504_mykaleidoscope-ru-p-raian-gosling-pricheski-pinterest-74.jpg" class="width_max">
-        </div>
-        <div class="carousel-item active">
-            <img src="https://phonoteka.org/uploads/posts/2021-07/1625633650_15-phonoteka-org-p-raian-gosling-draiv-art-krasivo-17.jpg" class="width_max">
-        </div>
-        <div class="carousel-item">
-            <img src="http://images5.fanpop.com/image/photos/28100000/Drive-2011-ryan-gosling-28125755-1280-544.jpg" class="width_max">
-        </div>
-        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </a>
-    </div>
+    </div>  
 </body>    

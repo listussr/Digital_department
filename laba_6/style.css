@@ -12,6 +12,13 @@
 */
 
 .width_max {
-    width: 1345px;
-    height: 600px;
+    width: 100%;
+    /*height: 600px;*/
+}
+
+.pos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
 }
