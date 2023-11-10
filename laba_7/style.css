@@ -22,3 +22,12 @@
     margin-left: 75px;
     margin-right: 75px;
 }
+
+.bg {
+    background-color: #f2e5ff;
+}
+
+.padding {
+    padding-left: 40%;
+    background-color: #ead4ff;
+}

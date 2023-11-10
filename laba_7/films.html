@@ -3,10 +3,220 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
           crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-    <div class="navbar-brand">
-        <a href="http://127.0.0.1:5500/info.html" target="_blank" rel="noopener noreferrer">info</a>
-        <a href="http://127.0.0.1:5500/films.html" target="_blank" rel="noopener noreferrer">films</a>
+<body class="bg">
+    <nav class="navbar navbar-toggleable-md navbar-inverse text-bg-secondary" >
+        <div>
+            <a class="navbar-brand" href="http://127.0.0.1:5500/info.html" target="_blank" rel="noopener noreferrer">Info</a>
+            <a class="navbar-brand" href="http://127.0.0.1:5500/films.html" target="_blank" rel="noopener noreferrer">Films</a>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-xs-6 col-sm-6">
+            <h1>Райан Гослинг</h1>
+            <h2>Родился 12.11.1982</h2>
+            <h2>42 года</h2>
+            <h2>Снялся в 55 фильмах</h2>
+        </div>
+        <div class="col-xs-6 col-sm-6 caption">
+            <img src="https://github.com/listussr/Digital_department/blob/master/laba_7/pictures/gosling_5.jpg?raw=true"/>  
+        </div>
     </div>
+    <br/>
+    <h1 class="padding">Лучшие фильмы</h1>
+    <div class="row">
+        <div class="col-3">
+            <div class="card" style="height: 65rem;">
+                <img src="https://www.kinopoisk.ru/1XW462q24/134699tE/DoK4ck7qjzdVzUYMQ_L7K4L6E1cjum2pvdUYlSjiXxv-HZhrt1CvLQpnjRlNYc_7_d0X4fAu2N3tN9PJGnpakOpGmCZ7z3uWNUgD6OcHjs6XvhKH5n4c3TixWUQdN-rpDR8bSSByzN-IZUsNWTW-DghI4-WAm1ztPIP3_jyeHqN94EqTLfteYMXeNwgiwakYwrj1B-O4unrdxE9letHMqkyeSlljQl2_mubKfuh3qo55yyCHokqMzViwRo28CMyzvGEYUn4JvrLkD4YK0oLZ-_IZFydR2wrZ7NV_NrsT3bpsbfobICKu73tm-Qzrd5nPy4hzRaKLXT_ZU6a_PntNMtzSelAeWs7hJdwmO8Ez6ylAWucGQ9nLKG3VLNUag7zr_25bu8ISDM-4dSnOqCZqH6h7Q7TCy_8O-JKkHp05jTG_4SkCPpjOseVOl3vw0IpJY6k3lVGoGAjMFg_VGMO-mhw8S8ow4VztuCarPwo16h252CGV8itdXfnCNG_cSzzDrTGYsD27nhLlTdQp4cL5GyMJphejKem7HAZ81aoTrTlefklL0-Men-jlG6471Uq-CBmitAAKTS-ZY0Y9jisso77B-qOtu2zSNF6VubCxy1kBiLS3UIh5iZ8FXiU5Ea8Zr41rGEES3T9a1SicCAQZ_Dt64fZgyJzeCfJWL247HZA-sLsyXnotgBVshDnDYesp8yoGNrBrWsjetAznC0Pcaf7cmEkSAq8NC5TrfyhWOU_oeTBHg-jezxgz9f2ueyzgrTK7UA_ZXTLXP2QqU3HZGJJrVzSBiKvo3vaPRqqwnpgdnTgpcQM9TVh3iQ26V9qcyMkARGF6vtyrwMYe3co9Eh7BiWH9us5jl_0kSaCSuTpAOwfnQkpJeLzUfTbYgO2Ivt46GWCzr9_Kx1v8W-YIbai5A3ZhaZ8cK_G2TJ047BPMwHqT71tPIPQsh-nCIBn74Fu1lRGLakpsFn5lyoBNGGyee9nTEg58mHeJDTgE2m5KWnBV4ymcTQrRpf7NOM8CX8ObUY1a_JNHf1eJMPDbaoGbppSxCUt4_eRuVNoB_NtsT8oL0_GvbmgmWwyKVqi-iulzh6AojF94kGRtv6pPYc-jmhKvmd0ShB0mezLAaZqjO1eXkyk5e90kHPabQN7bbg-5KkDAjc6bVolOCwY7nAhq06QAO03-6LDmDe3qz4NuI1pxT5gNg2U8pfjxMCs5oHj2FNF6O6tdJ81Wq1Guyq4PG0vjwv0_uJe5zJqm6e_6CLBXgwufD-sSR_xPy4_APqDrE1w4rYCVXTca4hAqutM6F5fQaAp47XVutNjyLcmv3IoYgWCfD_j2qT5L1Jqt6LiANHHIzK7p8qbNrsjfo34wu2Kt69zBZa_nuoKim4mwePUEUkkYK912b3U5Ip7qjZ0ae6EQv65LBVquOWRIzhgKI6ah6E1vSQPkLq3bnpG8UxjRfWjuwhWeB4oAgpvZcooHB0B6OUpNdt6UujONms9MeTqS0K0vapVp3aokCP37mEGFEXlfLxqQJg28SL0CnZHo8oxaDKC2HCV7orN4SOGYxeaQSFpKn_avJIsjHxgsb4lIQXJ_j5jHybxJd6hfKvqCBeEZvu27IaR__OqO0ByiehFNuy7zB023G7NBaLsT2TSGwyl6yV6GTgfYUm0pfMyZ2KHRf-969MnfiTarvYuKw_cSyK3_28IV7o4IzQHsA0rhXDvMc2WNlhgSw8rbMtiFB1J6CMnetE0kyeH9ul79G4tA4T0-eLe5DVi0uHw52rPXsope_5iAhm7eymyQndMrclzqvsM1T0UoQ2J6mbPo51RAiWmpHBSO9Oph3Xof7loaoZL9Hjj0W66aZondmEighEJZr-_KwKQ_30htw3wQukBuKq1S1lxUmMMAWOsRida2kTgq-G4UfoVLAe-pzPya-dIgfryK5qqsatRKbjq7YLXAWY69GqAX3XwonzK-YZiTn9qPETQch-hwI8ko8yt1FEJ4K6pexW61GfHNu2-MW2nRU23PywbYzFsUmZ7J2GCE8ykvb6qjRH5OeJ1RzeMKo-ypzaNEvaW6QDBLG6K7xqUC6Yp7HJf-FpiDPYmu3_ob8MFMn4uWeMwad1m_OmjBhOL6nX1qQmZv7GiPAZ3w-NM_iz0y5F3WOEJQS0mgCzSlkGh7eZy3bSU4E79YzJwZ27AiruyJtRl-exXL7jo44dRj6P-fqUK2T65KTyK9k3pAD5mMYLW8lUjgQ5mKUZuFN-HJa8mPxs_VOECM2J29KQuAEw5daPcq7oi0GEya61GGAFqszInity1d2l_CzkL7w5zZn2K2vcY6YlLbmIK5xZXSqagbTvaf5LjCHmmM3An4A_Fun0inqk2rNAt-2FgSBcLark0IoeQvPHrf8m_ymzN-WJzCFS4l2SKSCQqD6fQ2sclJCb2XTXdrI876T06YS-FS7v3op4q9qFaZjOvZoaaTS-yPGrPm7Z-ovdDeAHpBHMuOMQUsp5oDUltK0YrHpqFpqwlv9N9muhO8yC1PiSigA18_CwbaTor0uC3bmTNkInmcXvoiFm5OKx3zXfH6MK_IjDKXDgd6IkPJ6MDbd1bBq7spDzaMlNkgfRgOvHu7cVB_fHonKm06x0ouqBsAB8F6bY-pMub9LUhegW-SyiN_mc7AhJ93SuFj67lAifXEYvgLO472zqWooI_KP3-rukHhrF85d1uPWJWbTfiroCRCuVyc6_BEXV_ZbeOewOgRbmtvc-W9pHmCgsu4Y9kmttF5e2t8F17lKDPtaD-eaDqD0R1Pq3ZZf6jmmB4aWxPE4Cj9vWoCN-zsCL2A7hC6QY6LPIFHD0UbIXHbieEItNTBSeuYvCV8JVswnui-v2sIUUEfT3t2y06a9JpP-YtjN_NJn8woovSf_7i-wMyDqsHNuy1A9e-WCNKAeXphipV2sMp6-O-lbRXoAj17fP07y1IRbK3IRzi_uSYYb6tK4ybiGw0ciLIGM" class="card-img-top"/>
+                <h5 class="card-title">Драйв</h5>
+                <p class="card-text">Великолепный водитель – при свете дня он выполняет каскадерские трюки на съёмочных площадках Голливуда, а по ночам ведет рискованную игру. Но один опасный контракт – и за его жизнь назначена награда. Теперь, чтобы остаться в живых и спасти свою очаровательную соседку, он должен делать то, что умеет лучше всего – виртуозно уходить от погони.</p>
+                <a style="margin-top: 14rem;" href="https://www.kinopoisk.ru/film/276598/?utm_referrer=yandex.ru" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Кинопоиск</a>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="height: 65rem;">
+                <img src="https://www.kinopoisk.ru/14z6Og216/1e8311X38Z7/cX0wRczrHz0bjhVKtmG5i5NLnUQs_anMLwM9bYVHQ1QOr_QXQedSMbezPoCGKszg4jDKOBdKgCg1dFmyUg2Va-QuMNIeLUjpjByHi3WhOc1ACV0VqS-8XShH6jtSjI9eAiWons4tWjqv4q1TA74Y9TIgHTtTCcX5ZejC9kXHwLSwvXvNRLne-Z1Unwb7onHBgQwfxLP_5Qp9h3_tj43AFgOmqRzOrF97qewtlRJyU7U9Yl10E0FVOS6sj-BKTgi_-v3yyAqw1bnWlJjBtqT7hsLN2U019WTCcEX3aA0KDhhMZ6EUBq7e9Kil5dTadl82-q2dfF0J035ibkiiRIxIffM2sIJKupa9HFAYTrEmtk7BgteK9LWhwPfAc67OSQGSgS9sFM-r3zymLOXQk36ePTgplnUeDRA04iePIMgMij_3M_vAS_yRMpJd0AG4InqBDohUzD72rIRwDLuoQ0fA2EDpIRAKZ9I9ae2lmlz5UXI17NI71cndMa2ixOAFTgI0fHP6yAZ1mLpVUdtKNur0AQJKXguyvC1LPAl7LQxJC5pH4KYXzqqVeSrkpNedMdz7s2iQuteDVrijLE-lggZNtHu688VJvNm6E18RR_bh8sFDy5zL9XyiDf6Eea3HywvbyibtFYNukjvoY-oSGf2Ycnxt132VC1gx42MGKg0BAnQ8ePjPSruWdlcekEt0pfqLys5RAjK_IAe1hL9th0_G2gNnKVNGrtt9JyTlGxq0njv1IloyHwWYMKArDmuARYeytDL7iE3w1vITnp_Deew0SUtDmoO6OCMHPwgyKsCOhB2Opq5WTuqRuCZs7hcStpj-f6eWMFUP2HYhYk_vzcRGdrQ7MwPGPJY_n54Rg7Og8wwDSRWLMrQkxHoAf2sMiwPYQSOn205tGzonrawT3HfX9Peg23Kajl4xLKOGaoFAArT1sTCKwn0X9hzXEUd06_bHREjWg3u4YUU_jPNuhYhMFs6rZh4GpBX5JKwhHNI4kf11Ipo5XYocdmGigWIMzgO8s3H9BcS0UPJSW99Gfy2wSMMKEEi_fmrK9Ik5pk4NwdODoWcRx-JQMK_k4NQWNJo_eGUY9ddNXryj58jsxkYNvDT9e4tBtR18ld7eyH1q_QSEiNZPP73rCjEMfm3GRo1ai-VhVk7pmXWtrKGaEPKQ_3hvGrTeRZa3Ky5ALUDABTPyuP2CSvYZPNEb3Qs8JrGHDsnUyDo148QxwvynCggOFQTv6d8Hrli-oSSlXhq6kPi5oRRwV4Pe8aSjyWvFTYR4-bP2Ass9lzyV3dIEv6w7iITAmQL1dqaDcAX0aAoIBNRK42KYw67TOuErqxNaeNSwtWySs1qB13Hu64llj4HP_DWw-MGCshf9nZYThLPkOQ0Ii5RCvfFsRDgEMiSHyoPcB6ntHs9iU7Fu42yUUfZY_H_nWrQbDpN-6SoNpg2OhTU5ej6Li3TWepWW1UjzrrHBiAMVzPT24A32RfIliwpJ3grkqxQJ61DwZ21kFFI-3DR9qVd9XcnVPCKmgW0Ehkx8eL20Qgi1lbnfnhoIdOIyx0oEWII0NS4AOkAzI8XCiN-PqOecQm2avegl7ddZ9VBwMambMFoKG7RibQ6uyYYGun17uIAI-BCylF4RA7yp8ciFAhXL9PruwjXEuWpMSktWxi-kVAGrFvXmI-JWUfST_39lVbnfCFRx6mUM7AiAy3S7vXDNiTDe_NOXX49_Jv2PBQHRifV8rcO0i_FjxYmG1Yxo4hYKY5p5aW2mFBsxVD04qdq1HwuQPaatjyMHSciw_Tl5gYK9UfUU1B4P_mE2x0CMFEU2MSUN9wE2LURIStDIqOIYzibQva4nJNZadVS-NSaX8F1G1rRgJUuqSghMf3O8scqCtZy0UxAWAffr-Y4IjBFIfnpmy_GHvGZHysSTyiXlWcOr1rKoYSVT1fUTMjQo0vIdz1I7bKJPq4fOBHZ9uLkIjTNZ99cTmQh-pvQGiASeCzX4IMp4wTmqioBIEgGs55OC4li-re8rlVJ-0381YJKx3EneM-svg6wNiA50cDkywwD8GDUW1t0GMWh5TQMGkE8_8CGFfwRzrYVPBpKKr-JcSiFXPSVia5pVfJv_8C-d8dtC071rbY-jjgFCcLy7vgVN81B6nBuSQfvoecXMSV6Mf_BrC3BAMqyESMGQC2OnkMptHr7nouvbljLXPLumELySj9q74iZGJIbER_W7c7ZJgHgX_tTXVgDwLXIAgYwaBD61oQc2xH_vRIKEXoct49hIK51z6KTuHFa3HPI7qZY83M6dseQjja8Fho3-e7yygcC9WTjc3dkANa4ywwhFWoJ7faBFvYF1YgJHjVBIZiyVymsYPGBh4hyaPde_feHUON7JW7wgIoXrzMDHe_399EVJOV7wkx8QB7Nhu4ODxRlL9_Ypy3FMv2uMyUMfjGWq14bv3Xwnr-FTEXkes3Jtl_SfSFt8K6lJIk1IzTB4tbVNjDhVvdMYEcg3JHnPigwYybe24AJwgXqgBQFAEsCk4xHKYZbyZ65jUlN9HjOxoVC7HE4UOWNjRaJJwkK1_P51x0R8UnzXldbGtaI1xIZJXQS5emBC9sN35wXKgROIaOnTgCmZe-BvJRJWcVd3uiWcvVpBVDVqL4WvwIACOvV0-03EtJm2HtPaCHamNolKyNjPe3nri37Hti3PDQgSwOxkXkQuHnJoYWVWE7gRNnRiFfLZjl407eSN6sIAzXQ4e3LPAv6Zv1vfm0kw4bGMQQURBbU-6g3-S_tuzUYEnMoka9fM41ZyJ25i0hV2W3e1bV3ymofdP6BhT2DJiob-OrvzioxzGnURHBADN-uzjgmCWM3zteTE9gt8Jw7JzRaJKG6XwGaRvaGpbVtVfhb48KYdcpHOFD7qbMssjwIHtjC4vUjKtBi2X5VWR3eltQMEDlfLM3YjRXLF_GONwIlSxyQm2Q4snjAmJSGaVnXbt3xo0zzbytM1bA" class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">Бегущий по лезвию 2049</h5>
+                    <p class="card-text">В недалеком будущем мир населен людьми и репликантами, созданными выполнять самую тяжелую работу. Работа офицера полиции Кей — держать репликантов под контролем в условиях нарастающего напряжения. Он случайно становится обладателем секретной информации, которая ставит под угрозу существование всего человечества. Желая найти ключ к разгадке, Кей решает разыскать Рика Декарда — бывшего офицера специального подразделения полиции Лос-Анджелеса, который бесследно исчез много лет назад.</p>
+                    <a style="margin-top: 4rem;" href="https://www.kinopoisk.ru/film/589290/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Кинопоиск</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="height: 65rem;">
+                <img src="https://www.kinopoisk.ru/14z6Og216/1e8311X38Z7/cX0wRczrHz0bjhVKtmG5i5NLnUQs_anMLwM9bYVHQ1QOr_QXQedSMbeyfELE6U6i4iTKb1ceg7z29E3n0FoVa-d5JNIIeZ39jAuHnyHgbFmBXF2Baq-8XShH6jtSjI9eAiWons4tWjqv4q1TA74Y9TIgHTtTCcX5ZejC9kXHwLSwvXvNRLne-Z1Unwb7onHBgQwfxLP_5Qp9h3_tj43AFgOmqRzOrF97qewtlRJyU7U9Yl10E0FVOS6sj-BKTgi_-v3yyAqw1bnWlJjBtqT7hsLN2U019WTCcEX3aA0KDhhMZ6EUBq7e9Kil5dTadl82-q2dfF0J035ibkiiRIxIffM2sIJKupa9HFAYTrEmtk7BgteK9LWhwPfAc67OSQGSgS9sFM-r3zymLOXQk36ePTgplnUeDRA04iePIMgMij_3M_vAS_yRMpJd0AG4InqBDohUzD72rIRwDLuoQ0fA2EDpIRAKZ9I9ae2lmlz5UXI17NI71cndMa2ixOAFTgI0fHP6yAZ1mLpVUdtKNur0AQJKXguyvC1LPAl7LQxJC5pH4KYXzqqVeSrkpNedMdz7s2iQuteDVrijLE-lggZNtHu688VJvNm6E18RR_bh8sFDy5zL9XyiDf6Eea3HywvbyibtFYNukjvoY-oSGf2Ycnxt132VC1gx42MGKg0BAnQ8ePjPSruWdlcekEt0pfqLys5RAjK_IAe1hL9th0_G2gNnKVNGrtt9JyTlGxq0njv1IloyHwWYMKArDmuARYeytDL7iE3w1vITnp_Deew0SUtDmoO6OCMHPwgyKsCOhB2Opq5WTuqRuCZs7hcStpj-f6eWMFUP2HYhYk_vzcRGdrQ7MwPGPJY_n54Rg7Og8wwDSRWLMrQkxHoAf2sMiwPYQSOn205tGzonrawT3HfX9Peg23Kajl4xLKOGaoFAArT1sTCKwn0X9hzXEUd06_bHREjWg3u4YUU_jPNuhYhMFs6rZh4GpBX5JKwhHNI4kf11Ipo5XYocdmGigWIMzgO8s3H9BcS0UPJSW99Gfy2wSMMKEEi_fmrK9Ik5pk4NwdODoWcRx-JQMK_k4NQWNJo_eGUY9ddNXryj58jsxkYNvDT9e4tBtR18ld7eyH1q_QSEiNZPP73rCjEMfm3GRo1ai-VhVk7pmXWtrKGaEPKQ_3hvGrTeRZa3Ky5ALUDABTPyuP2CSvYZPNEb3Qs8JrGHDsnUyDo148QxwvynCggOFQTv6d8Hrli-oSSlXhq6kPi5oRRwV4Pe8aSjyWvFTYR4-bP2Ass9lzyV3dIEv6w7iITAmQL1dqaDcAX0aAoIBNRK42KYw67TOuErqxNaeNSwtWySs1qB13Hu64llj4HP_DWw-MGCshf9nZYThLPkOQ0Ii5RCvfFsRDgEMiSHyoPcB6ntHs9iU7Fu42yUUfZY_H_nWrQbDpN-6SoNpg2OhTU5ej6Li3TWepWW1UjzrrHBiAMVzPT24A32RfIliwpJ3grkqxQJ61DwZ21kFFI-3DR9qVd9XcnVPCKmgW0Ehkx8eL20Qgi1lbnfnhoIdOIyx0oEWII0NS4AOkAzI8XCiN-PqOecQm2avegl7ddZ9VBwMambMFoKG7RibQ6uyYYGun17uIAI-BCylF4RA7yp8ciFAhXL9PruwjXEuWpMSktWxi-kVAGrFvXmI-JWUfST_39lVbnfCFRx6mUM7AiAy3S7vXDNiTDe_NOXX49_Jv2PBQHRifV8rcO0i_FjxYmG1Yxo4hYKY5p5aW2mFBsxVD04qdq1HwuQPaatjyMHSciw_Tl5gYK9UfUU1B4P_mE2x0CMFEU2MSUN9wE2LURIStDIqOIYzibQva4nJNZadVS-NSaX8F1G1rRgJUuqSghMf3O8scqCtZy0UxAWAffr-Y4IjBFIfnpmy_GHvGZHysSTyiXlWcOr1rKoYSVT1fUTMjQo0vIdz1I7bKJPq4fOBHZ9uLkIjTNZ99cTmQh-pvQGiASeCzX4IMp4wTmqioBIEgGs55OC4li-re8rlVJ-0381YJKx3EneM-svg6wNiA50cDkywwD8GDUW1t0GMWh5TQMGkE8_8CGFfwRzrYVPBpKKr-JcSiFXPSVia5pVfJv_8C-d8dtC071rbY-jjgFCcLy7vgVN81B6nBuSQfvoecXMSV6Mf_BrC3BAMqyESMGQC2OnkMptHr7nouvbljLXPLumELySj9q74iZGJIbER_W7c7ZJgHgX_tTXVgDwLXIAgYwaBD61oQc2xH_vRIKEXoct49hIK51z6KTuHFa3HPI7qZY83M6dseQjja8Fho3-e7yygcC9WTjc3dkANa4ywwhFWoJ7faBFvYF1YgJHjVBIZiyVymsYPGBh4hyaPde_feHUON7JW7wgIoXrzMDHe_399EVJOV7wkx8QB7Nhu4ODxRlL9_Ypy3FMv2uMyUMfjGWq14bv3Xwnr-FTEXkes3Jtl_SfSFt8K6lJIk1IzTB4tbVNjDhVvdMYEcg3JHnPigwYybe24AJwgXqgBQFAEsCk4xHKYZbyZ65jUlN9HjOxoVC7HE4UOWNjRaJJwkK1_P51x0R8UnzXldbGtaI1xIZJXQS5emBC9sN35wXKgROIaOnTgCmZe-BvJRJWcVd3uiWcvVpBVDVqL4WvwIACOvV0-03EtJm2HtPaCHamNolKyNjPe3nri37Hti3PDQgSwOxkXkQuHnJoYWVWE7gRNnRiFfLZjl407eSN6sIAzXQ4e3LPAv6Zv1vfm0kw4bGMQQURBbU-6g3-S_tuzUYEnMoka9fM41ZyJ25i0hV2W3e1bV3ymofdP6BhT2DJiob-OrvzioxzGnURHBADN-uzjgmCWM3zteTE9gt8Jw7JzRaJKG6XwGaRvaGpbVtVfhb48KYdcpHOFD7qbMssjwIHtjC4vUjKtBi2X5VWR3eltQMEDlfLM3YjRXLF_GONwIlSxyQm2Q4snjAmJSGaVnXbt3xo0zzbytM1bA" class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">Место под соснами</h5>
+                    <p class="card-text">Мотокаскадер Люк Глэнтон совершает турне из одной провинции в другую, показывая свои каскадерские навыки и зарабатывая этим на жизнь. По окончании одного из своих выступлений он встречает свою бывшую девушку - Ромину, вскоре узнав, что у нее от него годовалый сын - Джейсон. Решив обеспечивать сына он бросает свою работу каскадера, однако Ромина против того, чтобы Люк был в жизни ее сына, поскольку она сама вовлечена в отношения с Кофи. Тем не менее, Люк остается в городе и устраивается на работу к механику Робину, но вскоре понимает, что заработанных денег не хватает для обеспечения семьи. Робин предлагает ему ограбить банк...</p>
+                    <a href="https://www.kinopoisk.ru/film/577673/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Кинопоиск</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="height: 65rem;">
+                <img src="https://www.kinopoisk.ru/29i5yb369/c95374ni1mB/15uzq5zQloFpaBrJFsO6PInenf04_iK-TCKAT07rZA1MIfWnwrs1xjDktvY7MXec1a3RYaQfzCDUX7l8tQ6KkUKfJjxOQoEB_vrI3wBWu_paCMis_qw3L0tmVxmZIKgHQKupLk1xPc0otSVn_KZjyUW8R6M1S17yUUMj7fTa34QaULtlnMmcjmf7XoPUCDh0lF2VsWfyZzjT6sZBTWtiRgLlrGnN_jjEYbbl5-XmJckOM0fquAXFuxyAbnF3lJkGGtR-L1THVMMvvhqEVcr4cxlTWv4g92I3XaMPiEukZcrAoernRHe3D6P86aOt5SqIgvrFrHsMBzCYie0-dxQYRVWa-eVcQZQG4_dQTN3G_3CU3Jn8rzlm8VIhgoiLLmTMCqHkIQs_v4Su9qUhay6vD8N6hiuwxM731MGk9zfdXE3T13pukkHeyas9l4HQQ3A-1xXYtm27YrYeYMrHTWqhTM7nbmgDMLlFaf6k4K4gr8tH-oYr9I_Hs53Mrf18FVpNl5JwJ1kB1Eiv9tAMkEj-O5GbnjpjtGk13KsMDgglpg2BbmznCrZ_TyDxZibm72-ChL2NLLcIxj1VzyV2sZrXzZnWNebYTx2MYz3WiF8G_XHREFDzIXwtftorx4FM5-tMSqiuYcm9eY5tOy0ipCwtQwT4AKO4x8P_XUGh9XzVnI5WWnnuFYadBuf33cRQiLn0llBStSl9arkTbQ9BSGytC8vlreQM-HSMKDBj56Xu4woAMYnjtAyHP9JILfE00hVJFJy7LVHGXsCgPhTMUEZ1OhGWFjSocuH-3a5JwIxlJAQKq2Mujbg8hmF5bO5pbihIjrtP67AEzThUSO18-hIRRppXt-zbihQCYDYXgxeOtvPQUZ3-JTxnP1RuywmHZGJES2HubElwvYwv-Ckj76BsBwtxh6I1icWy1gjnc_ic3M9TVfCl1kGQg6v3kozejzg0l9jWPCr_L__cYIsIyOqlTAMmYiBPeL3Lprppp-UuocoNeM8husvENxXI4n-4WhNAVhd1rtQIH0Utct6JEcuz9x9enbthvCF7k65OxkAhZMyN7WqkxX5-i-o5KWBm5OoCT7DAqbBLTTefCKy4uJGfj5pXeOWZRRkD57hZSJBCeDEYXpR5p7wichPjgUpN6ytOjChtIcjy9UItdOouJWZtiYg-zyP0CAZ0VM1h9D-SXArZnP4rGULUg-D6UUTfgzX_l56QMqi87zFUZc6Ph2TlhIBiqmzPvz3C4nulamIt7IzE8wyqtEcGeNpK6f22013P25jzbptGXAgg-pGNHcb4N9tfXr0q_6_9GWUKTYahZgmGpaKnizX1gy006unqYO1PAPYBrPhKzzeaCu-_shDQB1ZQ9qmZDtWJqL6ZA1fL-Hmf21AwYTXv8Z6iQ8qMJOpHhmunLI9_fM-lOKrh5Kmow8p9ACB0zQN1HM8hNXlS2ASdVfqt0QqYRmT2lkwUQXj-1xefcSr_ZfpZ6gAOiWeuwQUjq6VAMb2HIbXu5KqhKIcIfM2qeErF8FSN4fYxUZwM1Z-xJVPAUYrtdZTMk8I6NhbdmrpmPS9y2u1MSc6nI4-NJSLjz_d9zql5rSMj4WiHxr3KYHWBSLYQhuI8v5SURNYVd6ZZR5RMZL3fRZYHvjkR15f9afVqcZ_pz8XDaS4CjeFlq8P3NwMneSYo7mdvCUY6iaLxQM78HcptN7zZ3AVdmnOsmshYwy36VwjXz7O3G9Sds-tzLr0TKAcBSKUswsKlLy5NNT7OaH2ioWZm6oDM80Dv8IrPsJXB7Lc3FBJGEtfxLNyOFsjsMJwK1QL28hGWF31m9OkznyxETQniLsPELS_gQn15TGt4KODkLOPPBXFGI_XEh7_UR615_93Qz5saN62ZShyFrXHZA9tENX7bGRYzojcvvVeiTgDH5GJDzK-k4Upxfklr_OPq7mTtA0rySSEwysv4kIcqf3cZW0ARVv2iWoCVBGH4Es9TwTE_EZ6e8mG94DvaZU9JT24lDMbu5ixIMrSNabguoeFn5E8E-s7j-A-G_VXEpPw_0FdP3hQypZIB2INteJ7FHsv1d9nU2Dxlf6Ezm2OBistk4kQCYKamDDKwzKc16qJhaSRKTTEPYb-HBjhZiWU_-VbXzlUde2VUC9gIJ3Wai9XCejPc1Vq6Iv8qPd7myY2FZaZFyKrgZ4sy_0xlPCGvqiwryYM9Qec8yQY7F8Sne31RVY6RWPNhkk4RDaR3VwIUDr9_GZcQsej5r39T7EvPRWZlTQlho2FFsrHCp_3uJGdg7UFEeYLoMsiB-pkIob95XNQM0xg4qhOI1IphPxECUwP4ftRVUHSh_2f41uMLx48urE2EaONvire6Sib5ZinkaqeLSHNNorpAhrafwKE7tVkaCFVfeiZYj9VK73cVwlyBcbsRldBy6P7mMtamyYSHrWbEAihmpQy5eQai9arqrOEgwoo6hic6Ss972chpNzybnADR3zLk0E6VSqn4n8ieT_G2nBGaMm77b31RIQ9Az2vuTkijrWeF-b7E4fErJqpk7IxPeYZocUkDcJaFpf64GVABnRK7qtPHl02uMFrD3Ij1dJQXlf3vtib4nOWJTs3jY8JN4SenyH32j-6x4S7jKuUPCDDEJb8AQT3fBKVwf9RVCNLa9ieagB5CYHLWRFAPeXoXVd07ZrRtcF6jyMBO56KNgC6vJQP3_8ThtCNj6m1oiYoxCSr3wwz1lI9luTlcWY0Tnz1kmo6Zji462UDRhLP4HlxZ_CN9aLFUY0gARGulAoNi425F-LbLIvlir6KpIkMF804ovMVGthXPaLw3G9dG0ly1ZBmGUMSmeJbBFwC2_xfemD4iP2N_nKjAR47u5ErNYG0ugvG2DaFwbCCqraVBhriHYfLJTTxSCux-utmSSF7U-OXZwBuNozjfBNkK-zbRUxr94rcjdl5mCkkIo6FLRO6jZ0lweMIqfahpZecgQUw7BicxDQYw0o" class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">Ла-ла Ленд</h5>
+                    <p class="card-text">Это история любви старлетки, которая между прослушиваниями подает кофе состоявшимся кинозвездам, и фанатичного джазового музыканта, вынужденного подрабатывать в заштатных барах. Но пришедший к влюбленным успех начинает подтачивать их отношения.</p>
+                    <a style="margin-top: 16rem;" href="https://www.kinopoisk.ru/film/841081/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Кинопоиск</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="height: 72rem;">
+                <img src="https://www.kinopoisk.ru/29i5yb369/c95374ni1mB/15uzq5zQloFpaBrJFsO6PInenf04_iK-TCKAT07rZA1MIfWnwrs1xjDktrR5MrfclbiRd2edGHeB37ortdhKkVbLMnxYVkCAPu7JSQNDOy6PHAhuK-w3L0tmVxmZIKgHQKupLk1xPc0otSVn_KZjyUW8R6M1S17yUUMj7fTa34QaULtlnMmcjmf7XoPUCDh0lF2VsWfyZzjT6sZBTWtiRgLlrGnN_jjEYbbl5-XmJckOM0fquAXFuxyAbnF3lJkGGtR-L1THVMMvvhqEVcr4cxlTWv4g92I3XaMPiEukZcrAoernRHe3D6P86aOt5SqIgvrFrHsMBzCYie0-dxQYRVWa-eVcQZQG4_dQTN3G_3CU3Jn8rzlm8VIhgoiLLmTMCqHkIQs_v4Su9qUhay6vD8N6hiuwxM731MGk9zfdXE3T13pukkHeyas9l4HQQ3A-1xXYtm27YrYeYMrHTWqhTM7nbmgDMLlFaf6k4K4gr8tH-oYr9I_Hs53Mrf18FVpNl5JwJ1kB1Eiv9tAMkEj-O5GbnjpjtGk13KsMDgglpg2BbmznCrZ_TyDxZibm72-ChL2NLLcIxj1VzyV2sZrXzZnWNebYTx2MYz3WiF8G_XHREFDzIXwtftorx4FM5-tMSqiuYcm9eY5tOy0ipCwtQwT4AKO4x8P_XUGh9XzVnI5WWnnuFYadBuf33cRQiLn0llBStSl9arkTbQ9BSGytC8vlreQM-HSMKDBj56Xu4woAMYnjtAyHP9JILfE00hVJFJy7LVHGXsCgPhTMUEZ1OhGWFjSocuH-3a5JwIxlJAQKq2Mujbg8hmF5bO5pbihIjrtP67AEzThUSO18-hIRRppXt-zbihQCYDYXgxeOtvPQUZ3-JTxnP1RuywmHZGJES2HubElwvYwv-Ckj76BsBwtxh6I1icWy1gjnc_ic3M9TVfCl1kGQg6v3kozejzg0l9jWPCr_L__cYIsIyOqlTAMmYiBPeL3Lprppp-UuocoNeM8husvENxXI4n-4WhNAVhd1rtQIH0Utct6JEcuz9x9enbthvCF7k65OxkAhZMyN7WqkxX5-i-o5KWBm5OoCT7DAqbBLTTefCKy4uJGfj5pXeOWZRRkD57hZSJBCeDEYXpR5p7wichPjgUpN6ytOjChtIcjy9UItdOouJWZtiYg-zyP0CAZ0VM1h9D-SXArZnP4rGULUg-D6UUTfgzX_l56QMqi87zFUZc6Ph2TlhIBiqmzPvz3C4nulamIt7IzE8wyqtEcGeNpK6f22013P25jzbptGXAgg-pGNHcb4N9tfXr0q_6_9GWUKTYahZgmGpaKnizX1gy006unqYO1PAPYBrPhKzzeaCu-_shDQB1ZQ9qmZDtWJqL6ZA1fL-Hmf21AwYTXv8Z6iQ8qMJOpHhmunLI9_fM-lOKrh5Kmow8p9ACB0zQN1HM8hNXlS2ASdVfqt0QqYRmT2lkwUQXj-1xefcSr_ZfpZ6gAOiWeuwQUjq6VAMb2HIbXu5KqhKIcIfM2qeErF8FSN4fYxUZwM1Z-xJVPAUYrtdZTMk8I6NhbdmrpmPS9y2u1MSc6nI4-NJSLjz_d9zql5rSMj4WiHxr3KYHWBSLYQhuI8v5SURNYVd6ZZR5RMZL3fRZYHvjkR15f9afVqcZ_pz8XDaS4CjeFlq8P3NwMneSYo7mdvCUY6iaLxQM78HcptN7zZ3AVdmnOsmshYwy36VwjXz7O3G9Sds-tzLr0TKAcBSKUswsKlLy5NNT7OaH2ioWZm6oDM80Dv8IrPsJXB7Lc3FBJGEtfxLNyOFsjsMJwK1QL28hGWF31m9OkznyxETQniLsPELS_gQn15TGt4KODkLOPPBXFGI_XEh7_UR615_93Qz5saN62ZShyFrXHZA9tENX7bGRYzojcvvVeiTgDH5GJDzK-k4Upxfklr_OPq7mTtA0rySSEwysv4kIcqf3cZW0ARVv2iWoCVBGH4Es9TwTE_EZ6e8mG94DvaZU9JT24lDMbu5ixIMrSNabguoeFn5E8E-s7j-A-G_VXEpPw_0FdP3hQypZIB2INteJ7FHsv1d9nU2Dxlf6Ezm2OBistk4kQCYKamDDKwzKc16qJhaSRKTTEPYb-HBjhZiWU_-VbXzlUde2VUC9gIJ3Wai9XCejPc1Vq6Iv8qPd7myY2FZaZFyKrgZ4sy_0xlPCGvqiwryYM9Qec8yQY7F8Sne31RVY6RWPNhkk4RDaR3VwIUDr9_GZcQsej5r39T7EvPRWZlTQlho2FFsrHCp_3uJGdg7UFEeYLoMsiB-pkIob95XNQM0xg4qhOI1IphPxECUwP4ftRVUHSh_2f41uMLx48urE2EaONvire6Sib5ZinkaqeLSHNNorpAhrafwKE7tVkaCFVfeiZYj9VK73cVwlyBcbsRldBy6P7mMtamyYSHrWbEAihmpQy5eQai9arqrOEgwoo6hic6Ss972chpNzybnADR3zLk0E6VSqn4n8ieT_G2nBGaMm77b31RIQ9Az2vuTkijrWeF-b7E4fErJqpk7IxPeYZocUkDcJaFpf64GVABnRK7qtPHl02uMFrD3Ij1dJQXlf3vtib4nOWJTs3jY8JN4SenyH32j-6x4S7jKuUPCDDEJb8AQT3fBKVwf9RVCNLa9ieagB5CYHLWRFAPeXoXVd07ZrRtcF6jyMBO56KNgC6vJQP3_8ThtCNj6m1oiYoxCSr3wwz1lI9luTlcWY0Tnz1kmo6Zji462UDRhLP4HlxZ_CN9aLFUY0gARGulAoNi425F-LbLIvlir6KpIkMF804ovMVGthXPaLw3G9dG0ly1ZBmGUMSmeJbBFwC2_xfemD4iP2N_nKjAR47u5ErNYG0ugvG2DaFwbCCqraVBhriHYfLJTTxSCux-utmSSF7U-OXZwBuNozjfBNkK-zbRUxr94rcjdl5mCkkIo6FLRO6jZ0lweMIqfahpZecgQUw7BicxDQYw0o" class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">Дневник памяти</h5>
+                    <p class="card-text">Это история отношений юноши и девушки из разных социальных слоев, живших в Южной Каролине. Ной и Элли провели вместе незабываемое лето, пока их не разделили вначале родители, а затем Вторая мировая война. После войны все изменилось: Элли обручилась с удачливым бизнесменом, а Ной жил наедине со своими воспоминаниями в старинном доме, который ему удалось отреставрировать. Когда Элли прочла об этом в местной газете, она поняла: ей нужно найти его и решить наконец судьбу их любви...</p>
+                    <a style="margin-top: 11rem;" href="https://www.kinopoisk.ru/film/3561/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Кинопоиск</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="height: 72rem;">
+                <img src="https://www.kinopoisk.ru/29i5yb369/c95374ni1mB/15uzq5zQloFpaBrJFsO6PInenf04_iK-TCKAT07rZA1MIfWnwrs1xjDktrR5MrfclbiSYCVJ2OPCX7kr9IzKkUJK5_xOAlTUvvrd3YHXbS9bSFws6-w3L0tmVxmZIKgHQKupLk1xPc0otSVn_KZjyUW8R6M1S17yUUMj7fTa34QaULtlnMmcjmf7XoPUCDh0lF2VsWfyZzjT6sZBTWtiRgLlrGnN_jjEYbbl5-XmJckOM0fquAXFuxyAbnF3lJkGGtR-L1THVMMvvhqEVcr4cxlTWv4g92I3XaMPiEukZcrAoernRHe3D6P86aOt5SqIgvrFrHsMBzCYie0-dxQYRVWa-eVcQZQG4_dQTN3G_3CU3Jn8rzlm8VIhgoiLLmTMCqHkIQs_v4Su9qUhay6vD8N6hiuwxM731MGk9zfdXE3T13pukkHeyas9l4HQQ3A-1xXYtm27YrYeYMrHTWqhTM7nbmgDMLlFaf6k4K4gr8tH-oYr9I_Hs53Mrf18FVpNl5JwJ1kB1Eiv9tAMkEj-O5GbnjpjtGk13KsMDgglpg2BbmznCrZ_TyDxZibm72-ChL2NLLcIxj1VzyV2sZrXzZnWNebYTx2MYz3WiF8G_XHREFDzIXwtftorx4FM5-tMSqiuYcm9eY5tOy0ipCwtQwT4AKO4x8P_XUGh9XzVnI5WWnnuFYadBuf33cRQiLn0llBStSl9arkTbQ9BSGytC8vlreQM-HSMKDBj56Xu4woAMYnjtAyHP9JILfE00hVJFJy7LVHGXsCgPhTMUEZ1OhGWFjSocuH-3a5JwIxlJAQKq2Mujbg8hmF5bO5pbihIjrtP67AEzThUSO18-hIRRppXt-zbihQCYDYXgxeOtvPQUZ3-JTxnP1RuywmHZGJES2HubElwvYwv-Ckj76BsBwtxh6I1icWy1gjnc_ic3M9TVfCl1kGQg6v3kozejzg0l9jWPCr_L__cYIsIyOqlTAMmYiBPeL3Lprppp-UuocoNeM8husvENxXI4n-4WhNAVhd1rtQIH0Utct6JEcuz9x9enbthvCF7k65OxkAhZMyN7WqkxX5-i-o5KWBm5OoCT7DAqbBLTTefCKy4uJGfj5pXeOWZRRkD57hZSJBCeDEYXpR5p7wichPjgUpN6ytOjChtIcjy9UItdOouJWZtiYg-zyP0CAZ0VM1h9D-SXArZnP4rGULUg-D6UUTfgzX_l56QMqi87zFUZc6Ph2TlhIBiqmzPvz3C4nulamIt7IzE8wyqtEcGeNpK6f22013P25jzbptGXAgg-pGNHcb4N9tfXr0q_6_9GWUKTYahZgmGpaKnizX1gy006unqYO1PAPYBrPhKzzeaCu-_shDQB1ZQ9qmZDtWJqL6ZA1fL-Hmf21AwYTXv8Z6iQ8qMJOpHhmunLI9_fM-lOKrh5Kmow8p9ACB0zQN1HM8hNXlS2ASdVfqt0QqYRmT2lkwUQXj-1xefcSr_ZfpZ6gAOiWeuwQUjq6VAMb2HIbXu5KqhKIcIfM2qeErF8FSN4fYxUZwM1Z-xJVPAUYrtdZTMk8I6NhbdmrpmPS9y2u1MSc6nI4-NJSLjz_d9zql5rSMj4WiHxr3KYHWBSLYQhuI8v5SURNYVd6ZZR5RMZL3fRZYHvjkR15f9afVqcZ_pz8XDaS4CjeFlq8P3NwMneSYo7mdvCUY6iaLxQM78HcptN7zZ3AVdmnOsmshYwy36VwjXz7O3G9Sds-tzLr0TKAcBSKUswsKlLy5NNT7OaH2ioWZm6oDM80Dv8IrPsJXB7Lc3FBJGEtfxLNyOFsjsMJwK1QL28hGWF31m9OkznyxETQniLsPELS_gQn15TGt4KODkLOPPBXFGI_XEh7_UR615_93Qz5saN62ZShyFrXHZA9tENX7bGRYzojcvvVeiTgDH5GJDzK-k4Upxfklr_OPq7mTtA0rySSEwysv4kIcqf3cZW0ARVv2iWoCVBGH4Es9TwTE_EZ6e8mG94DvaZU9JT24lDMbu5ixIMrSNabguoeFn5E8E-s7j-A-G_VXEpPw_0FdP3hQypZIB2INteJ7FHsv1d9nU2Dxlf6Ezm2OBistk4kQCYKamDDKwzKc16qJhaSRKTTEPYb-HBjhZiWU_-VbXzlUde2VUC9gIJ3Wai9XCejPc1Vq6Iv8qPd7myY2FZaZFyKrgZ4sy_0xlPCGvqiwryYM9Qec8yQY7F8Sne31RVY6RWPNhkk4RDaR3VwIUDr9_GZcQsej5r39T7EvPRWZlTQlho2FFsrHCp_3uJGdg7UFEeYLoMsiB-pkIob95XNQM0xg4qhOI1IphPxECUwP4ftRVUHSh_2f41uMLx48urE2EaONvire6Sib5ZinkaqeLSHNNorpAhrafwKE7tVkaCFVfeiZYj9VK73cVwlyBcbsRldBy6P7mMtamyYSHrWbEAihmpQy5eQai9arqrOEgwoo6hic6Ss972chpNzybnADR3zLk0E6VSqn4n8ieT_G2nBGaMm77b31RIQ9Az2vuTkijrWeF-b7E4fErJqpk7IxPeYZocUkDcJaFpf64GVABnRK7qtPHl02uMFrD3Ij1dJQXlf3vtib4nOWJTs3jY8JN4SenyH32j-6x4S7jKuUPCDDEJb8AQT3fBKVwf9RVCNLa9ieagB5CYHLWRFAPeXoXVd07ZrRtcF6jyMBO56KNgC6vJQP3_8ThtCNj6m1oiYoxCSr3wwz1lI9luTlcWY0Tnz1kmo6Zji462UDRhLP4HlxZ_CN9aLFUY0gARGulAoNi425F-LbLIvlir6KpIkMF804ovMVGthXPaLw3G9dG0ly1ZBmGUMSmeJbBFwC2_xfemD4iP2N_nKjAR47u5ErNYG0ugvG2DaFwbCCqraVBhriHYfLJTTxSCux-utmSSF7U-OXZwBuNozjfBNkK-zbRUxr94rcjdl5mCkkIo6FLRO6jZ0lweMIqfahpZecgQUw7BicxDQYw0o" class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">Перелом</h5>
+                    <p class="card-text">Ассистент окружного прокурора оказываетс я втянут в хитроумную игру в «кошки-мышки».</p>
+                    <a style="margin-top: 30rem;" href="https://www.kinopoisk.ru/film/220617/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Кинопоиск</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="height: 72rem;">
+                <img src="https://www.kinopoisk.ru/29i5yb369/c95374ni1mB/15uzq5zQloFpaBrJFsO6PInenf04_iK-TCKAT07rZA1MIfWnwrs1xjDktvY7MXec1a0F4eSJGHYCH7m84YxKkUJfsvxYVhUWfvrIidTU7i5bywmuP2w3L0tmVxmZIKgHQKupLk1xPc0otSVn_KZjyUW8R6M1S17yUUMj7fTa34QaULtlnMmcjmf7XoPUCDh0lF2VsWfyZzjT6sZBTWtiRgLlrGnN_jjEYbbl5-XmJckOM0fquAXFuxyAbnF3lJkGGtR-L1THVMMvvhqEVcr4cxlTWv4g92I3XaMPiEukZcrAoernRHe3D6P86aOt5SqIgvrFrHsMBzCYie0-dxQYRVWa-eVcQZQG4_dQTN3G_3CU3Jn8rzlm8VIhgoiLLmTMCqHkIQs_v4Su9qUhay6vD8N6hiuwxM731MGk9zfdXE3T13pukkHeyas9l4HQQ3A-1xXYtm27YrYeYMrHTWqhTM7nbmgDMLlFaf6k4K4gr8tH-oYr9I_Hs53Mrf18FVpNl5JwJ1kB1Eiv9tAMkEj-O5GbnjpjtGk13KsMDgglpg2BbmznCrZ_TyDxZibm72-ChL2NLLcIxj1VzyV2sZrXzZnWNebYTx2MYz3WiF8G_XHREFDzIXwtftorx4FM5-tMSqiuYcm9eY5tOy0ipCwtQwT4AKO4x8P_XUGh9XzVnI5WWnnuFYadBuf33cRQiLn0llBStSl9arkTbQ9BSGytC8vlreQM-HSMKDBj56Xu4woAMYnjtAyHP9JILfE00hVJFJy7LVHGXsCgPhTMUEZ1OhGWFjSocuH-3a5JwIxlJAQKq2Mujbg8hmF5bO5pbihIjrtP67AEzThUSO18-hIRRppXt-zbihQCYDYXgxeOtvPQUZ3-JTxnP1RuywmHZGJES2HubElwvYwv-Ckj76BsBwtxh6I1icWy1gjnc_ic3M9TVfCl1kGQg6v3kozejzg0l9jWPCr_L__cYIsIyOqlTAMmYiBPeL3Lprppp-UuocoNeM8husvENxXI4n-4WhNAVhd1rtQIH0Utct6JEcuz9x9enbthvCF7k65OxkAhZMyN7WqkxX5-i-o5KWBm5OoCT7DAqbBLTTefCKy4uJGfj5pXeOWZRRkD57hZSJBCeDEYXpR5p7wichPjgUpN6ytOjChtIcjy9UItdOouJWZtiYg-zyP0CAZ0VM1h9D-SXArZnP4rGULUg-D6UUTfgzX_l56QMqi87zFUZc6Ph2TlhIBiqmzPvz3C4nulamIt7IzE8wyqtEcGeNpK6f22013P25jzbptGXAgg-pGNHcb4N9tfXr0q_6_9GWUKTYahZgmGpaKnizX1gy006unqYO1PAPYBrPhKzzeaCu-_shDQB1ZQ9qmZDtWJqL6ZA1fL-Hmf21AwYTXv8Z6iQ8qMJOpHhmunLI9_fM-lOKrh5Kmow8p9ACB0zQN1HM8hNXlS2ASdVfqt0QqYRmT2lkwUQXj-1xefcSr_ZfpZ6gAOiWeuwQUjq6VAMb2HIbXu5KqhKIcIfM2qeErF8FSN4fYxUZwM1Z-xJVPAUYrtdZTMk8I6NhbdmrpmPS9y2u1MSc6nI4-NJSLjz_d9zql5rSMj4WiHxr3KYHWBSLYQhuI8v5SURNYVd6ZZR5RMZL3fRZYHvjkR15f9afVqcZ_pz8XDaS4CjeFlq8P3NwMneSYo7mdvCUY6iaLxQM78HcptN7zZ3AVdmnOsmshYwy36VwjXz7O3G9Sds-tzLr0TKAcBSKUswsKlLy5NNT7OaH2ioWZm6oDM80Dv8IrPsJXB7Lc3FBJGEtfxLNyOFsjsMJwK1QL28hGWF31m9OkznyxETQniLsPELS_gQn15TGt4KODkLOPPBXFGI_XEh7_UR615_93Qz5saN62ZShyFrXHZA9tENX7bGRYzojcvvVeiTgDH5GJDzK-k4Upxfklr_OPq7mTtA0rySSEwysv4kIcqf3cZW0ARVv2iWoCVBGH4Es9TwTE_EZ6e8mG94DvaZU9JT24lDMbu5ixIMrSNabguoeFn5E8E-s7j-A-G_VXEpPw_0FdP3hQypZIB2INteJ7FHsv1d9nU2Dxlf6Ezm2OBistk4kQCYKamDDKwzKc16qJhaSRKTTEPYb-HBjhZiWU_-VbXzlUde2VUC9gIJ3Wai9XCejPc1Vq6Iv8qPd7myY2FZaZFyKrgZ4sy_0xlPCGvqiwryYM9Qec8yQY7F8Sne31RVY6RWPNhkk4RDaR3VwIUDr9_GZcQsej5r39T7EvPRWZlTQlho2FFsrHCp_3uJGdg7UFEeYLoMsiB-pkIob95XNQM0xg4qhOI1IphPxECUwP4ftRVUHSh_2f41uMLx48urE2EaONvire6Sib5ZinkaqeLSHNNorpAhrafwKE7tVkaCFVfeiZYj9VK73cVwlyBcbsRldBy6P7mMtamyYSHrWbEAihmpQy5eQai9arqrOEgwoo6hic6Ss972chpNzybnADR3zLk0E6VSqn4n8ieT_G2nBGaMm77b31RIQ9Az2vuTkijrWeF-b7E4fErJqpk7IxPeYZocUkDcJaFpf64GVABnRK7qtPHl02uMFrD3Ij1dJQXlf3vtib4nOWJTs3jY8JN4SenyH32j-6x4S7jKuUPCDDEJb8AQT3fBKVwf9RVCNLa9ieagB5CYHLWRFAPeXoXVd07ZrRtcF6jyMBO56KNgC6vJQP3_8ThtCNj6m1oiYoxCSr3wwz1lI9luTlcWY0Tnz1kmo6Zji462UDRhLP4HlxZ_CN9aLFUY0gARGulAoNi425F-LbLIvlir6KpIkMF804ovMVGthXPaLw3G9dG0ly1ZBmGUMSmeJbBFwC2_xfemD4iP2N_nKjAR47u5ErNYG0ugvG2DaFwbCCqraVBhriHYfLJTTxSCux-utmSSF7U-OXZwBuNozjfBNkK-zbRUxr94rcjdl5mCkkIo6FLRO6jZ0lweMIqfahpZecgQUw7BicxDQYw0o" class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">Славные парни</h5>
+                    <p class="card-text">Что бывает, когда напарником брутального костолома становится субтильный лопух? Наемный охранник Джексон Хили и частный детектив Холланд Марч вынуждены работать в паре, чтобы распутать плевое дело о пропавшей девушке, которое оборачивается преступлением века. Смогут ли парни разгадать сложный ребус, если у каждого из них – свои, весьма индивидуальные методы.</p>
+                    <a style="margin-top: 17rem;" href="https://www.kinopoisk.ru/film/841152/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Кинопоиск</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="height: 72rem;">
+                <img src="https://www.kinopoisk.ru/29i5yb369/c95374ni1mB/15uzq5zQloFpaBrJFsO6PInenf04_iK-TCKAT07rZA1MIfWnwrs1xjDktfR5cLUc1a2ENGeImyNCH7k8odjKkUMeJjxOVlRWPvrJnJQX-yzbHFx4_2w3L0tmVxmZIKgHQKupLk1xPc0otSVn_KZjyUW8R6M1S17yUUMj7fTa34QaULtlnMmcjmf7XoPUCDh0lF2VsWfyZzjT6sZBTWtiRgLlrGnN_jjEYbbl5-XmJckOM0fquAXFuxyAbnF3lJkGGtR-L1THVMMvvhqEVcr4cxlTWv4g92I3XaMPiEukZcrAoernRHe3D6P86aOt5SqIgvrFrHsMBzCYie0-dxQYRVWa-eVcQZQG4_dQTN3G_3CU3Jn8rzlm8VIhgoiLLmTMCqHkIQs_v4Su9qUhay6vD8N6hiuwxM731MGk9zfdXE3T13pukkHeyas9l4HQQ3A-1xXYtm27YrYeYMrHTWqhTM7nbmgDMLlFaf6k4K4gr8tH-oYr9I_Hs53Mrf18FVpNl5JwJ1kB1Eiv9tAMkEj-O5GbnjpjtGk13KsMDgglpg2BbmznCrZ_TyDxZibm72-ChL2NLLcIxj1VzyV2sZrXzZnWNebYTx2MYz3WiF8G_XHREFDzIXwtftorx4FM5-tMSqiuYcm9eY5tOy0ipCwtQwT4AKO4x8P_XUGh9XzVnI5WWnnuFYadBuf33cRQiLn0llBStSl9arkTbQ9BSGytC8vlreQM-HSMKDBj56Xu4woAMYnjtAyHP9JILfE00hVJFJy7LVHGXsCgPhTMUEZ1OhGWFjSocuH-3a5JwIxlJAQKq2Mujbg8hmF5bO5pbihIjrtP67AEzThUSO18-hIRRppXt-zbihQCYDYXgxeOtvPQUZ3-JTxnP1RuywmHZGJES2HubElwvYwv-Ckj76BsBwtxh6I1icWy1gjnc_ic3M9TVfCl1kGQg6v3kozejzg0l9jWPCr_L__cYIsIyOqlTAMmYiBPeL3Lprppp-UuocoNeM8husvENxXI4n-4WhNAVhd1rtQIH0Utct6JEcuz9x9enbthvCF7k65OxkAhZMyN7WqkxX5-i-o5KWBm5OoCT7DAqbBLTTefCKy4uJGfj5pXeOWZRRkD57hZSJBCeDEYXpR5p7wichPjgUpN6ytOjChtIcjy9UItdOouJWZtiYg-zyP0CAZ0VM1h9D-SXArZnP4rGULUg-D6UUTfgzX_l56QMqi87zFUZc6Ph2TlhIBiqmzPvz3C4nulamIt7IzE8wyqtEcGeNpK6f22013P25jzbptGXAgg-pGNHcb4N9tfXr0q_6_9GWUKTYahZgmGpaKnizX1gy006unqYO1PAPYBrPhKzzeaCu-_shDQB1ZQ9qmZDtWJqL6ZA1fL-Hmf21AwYTXv8Z6iQ8qMJOpHhmunLI9_fM-lOKrh5Kmow8p9ACB0zQN1HM8hNXlS2ASdVfqt0QqYRmT2lkwUQXj-1xefcSr_ZfpZ6gAOiWeuwQUjq6VAMb2HIbXu5KqhKIcIfM2qeErF8FSN4fYxUZwM1Z-xJVPAUYrtdZTMk8I6NhbdmrpmPS9y2u1MSc6nI4-NJSLjz_d9zql5rSMj4WiHxr3KYHWBSLYQhuI8v5SURNYVd6ZZR5RMZL3fRZYHvjkR15f9afVqcZ_pz8XDaS4CjeFlq8P3NwMneSYo7mdvCUY6iaLxQM78HcptN7zZ3AVdmnOsmshYwy36VwjXz7O3G9Sds-tzLr0TKAcBSKUswsKlLy5NNT7OaH2ioWZm6oDM80Dv8IrPsJXB7Lc3FBJGEtfxLNyOFsjsMJwK1QL28hGWF31m9OkznyxETQniLsPELS_gQn15TGt4KODkLOPPBXFGI_XEh7_UR615_93Qz5saN62ZShyFrXHZA9tENX7bGRYzojcvvVeiTgDH5GJDzK-k4Upxfklr_OPq7mTtA0rySSEwysv4kIcqf3cZW0ARVv2iWoCVBGH4Es9TwTE_EZ6e8mG94DvaZU9JT24lDMbu5ixIMrSNabguoeFn5E8E-s7j-A-G_VXEpPw_0FdP3hQypZIB2INteJ7FHsv1d9nU2Dxlf6Ezm2OBistk4kQCYKamDDKwzKc16qJhaSRKTTEPYb-HBjhZiWU_-VbXzlUde2VUC9gIJ3Wai9XCejPc1Vq6Iv8qPd7myY2FZaZFyKrgZ4sy_0xlPCGvqiwryYM9Qec8yQY7F8Sne31RVY6RWPNhkk4RDaR3VwIUDr9_GZcQsej5r39T7EvPRWZlTQlho2FFsrHCp_3uJGdg7UFEeYLoMsiB-pkIob95XNQM0xg4qhOI1IphPxECUwP4ftRVUHSh_2f41uMLx48urE2EaONvire6Sib5ZinkaqeLSHNNorpAhrafwKE7tVkaCFVfeiZYj9VK73cVwlyBcbsRldBy6P7mMtamyYSHrWbEAihmpQy5eQai9arqrOEgwoo6hic6Ss972chpNzybnADR3zLk0E6VSqn4n8ieT_G2nBGaMm77b31RIQ9Az2vuTkijrWeF-b7E4fErJqpk7IxPeYZocUkDcJaFpf64GVABnRK7qtPHl02uMFrD3Ij1dJQXlf3vtib4nOWJTs3jY8JN4SenyH32j-6x4S7jKuUPCDDEJb8AQT3fBKVwf9RVCNLa9ieagB5CYHLWRFAPeXoXVd07ZrRtcF6jyMBO56KNgC6vJQP3_8ThtCNj6m1oiYoxCSr3wwz1lI9luTlcWY0Tnz1kmo6Zji462UDRhLP4HlxZ_CN9aLFUY0gARGulAoNi425F-LbLIvlir6KpIkMF804ovMVGthXPaLw3G9dG0ly1ZBmGUMSmeJbBFwC2_xfemD4iP2N_nKjAR47u5ErNYG0ugvG2DaFwbCCqraVBhriHYfLJTTxSCux-utmSSF7U-OXZwBuNozjfBNkK-zbRUxr94rcjdl5mCkkIo6FLRO6jZ0lweMIqfahpZecgQUw7BicxDQYw0o" class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">Игра на понижение</h5>
+                    <p class="card-text">2005 год. Изучая данные ипотек по стране, чудаковатый финансовый гений и управляющий хедж-фонда Scion Capital Майкл Бьюрри обращает внимание на одну деталь и приходит к выводу, что американский рынок ипотечных кредитов может скоро лопнуть. В связи с этим он страхует около миллиарда долларов своих клиентов через кредитный дефолтный своп. Клиенты фонда Бьюрри волнуются из-за возможных потерь, ведь рынок ипотечных кредитов представляется весьма стабильным, но Майкл твёрдо стоит на своём. Вскоре эту странную активность замечают несколько финансистов на Уолл-стрит. Изучив данные, они осознают, что опасения Бьюрри имеют под собой веские основания. Более того, сыграв на понижение, можно заработать миллионы.</p>
+                    <a href="https://www.kinopoisk.ru/film/501333/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Кинопоиск</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <h1 class="padding">Дополнительная информация</h1>
+    <br/>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-9">
+            <h2>Получил золотой глобус за фильм Ла-ла Ленд(2017)</h2>
+        </div>
+    </div>
+    <br/>
+    <h1 class="padding">Фильмография</h1>
+    <br/>
+    <table class="table table-bordered table-striped-columns">
+        <thead class="table-dark">
+            <th>
+                Год
+            </th>
+            <th>
+                Русское название
+            </th>
+            <th>
+                Оригинальное название
+            </th>
+            <th>
+                Роль
+            </th>
+        </thead>
+        <tbody>
+            <tr class="table-info">
+                <th>
+                    2004
+                </th>
+                <th>
+                    Дневник памяти
+                </th>
+                <th>
+                    The Notebook
+                </th>
+                <th>
+                    Ной Кэлхаун
+                </th>
+            </tr>
+            <tr class="table-primary">
+                <th>
+                    2007
+                </th>
+                <th>
+                    Перелом
+                </th>
+                <th>
+                    Fracture
+                </th>
+                <th>
+                    Уилли Бичум
+                </th>
+            </tr>
+            <tr class="table-info">
+                <th>
+                    2011
+                </th>
+                <th>
+                    Драйв
+                </th>
+                <th>
+                    Drive
+                </th>
+                <th>
+                    Водитель
+                </th>
+            </tr>
+            <tr class="table-primary">
+                <th>
+                    2016
+                </th>
+                <th>
+                    Славные парни
+                </th>
+                <th>
+                    The Nice Guys
+                </th>
+                <th>
+                    Холланд Марч
+                </th>
+            </tr>
+            <tr class="table-info">
+                <th>
+                    2017
+                </th>
+                <th>
+                    Ла-ла Ленд
+                </th>
+                <th>
+                    La La Land
+                </th>
+                <th>
+                    Себастьян Уайлдер
+                </th>
+            </tr>
+            <tr class="table-primary">
+                <th>
+                    2017
+                </th>
+                <th>
+                    Бегущий по лезвию 2049
+                </th>
+                <th>
+                    Blade Runner 2049
+                </th>
+                <th>
+                    офицер LAPD Кей
+                </th>
+            </tr>
+        </tbody>
+    </table>
 </body>
